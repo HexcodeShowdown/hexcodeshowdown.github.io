@@ -65,3 +65,12 @@ h1, h2, h4, h5 {
   /*text-shadow: 2px 2px #fff;*/
   font-family: "Courier New", Courier, monospace;
 }
+
+h1 a, h1 a:active {
+	color: black;
+	text-transform: lowercase;
+}
+h1 a:hover {
+	color: white;
+	text-transform: uppercase;
+}
