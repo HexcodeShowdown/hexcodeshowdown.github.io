@@ -53,6 +53,14 @@ text-transform: uppercase;
 	top:1px;
 }
 
+#more-info, #more-info:active {
+  color: white;
+}
+#more-info:hover {
+  color: black;
+text-transform: uppercase;
+}
+
 h1, h2, h4, h5 {
   /*text-shadow: 2px 2px #fff;*/
   font-family: "Courier New", Courier, monospace;
