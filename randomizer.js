@@ -21,8 +21,9 @@ function getUniqueRandom() {
 
     return val;
 }
+
 	
-function randomColor() { 
+function randomColor(setTitle=true) { 
 	var index = getUniqueRandom();
   
 	// selecting random color 
@@ -33,9 +34,12 @@ function randomColor() {
 	var bg = document.getElementById('random-text-bg'); 
 	bg.style.backgroundColor = random_color; 
 	text.innerHTML = "<mark>" + random_name + "</mark>";
+	
+	if (setTitle)
+		document.title = "HEXCODE - " + random_name;
 }  
 
-randomColor();
+randomColor(false);
 
 
 
