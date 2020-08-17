@@ -1,0 +1,59 @@
+#random-text-bg {
+  
+}
+
+#random-text {
+  font-size: 32pt;
+  height: 156px;
+        vertical-align: middle;
+}
+
+#random-text mark {
+  background-color: black;
+   color: white;
+    padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+text-transform: uppercase;
+ 
+ 
+}
+
+.container {
+	width: 450px;
+	height: min-content;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+
+.funky-button {
+	box-shadow: 5px 6px 0px 1px #000000;
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.funky-button:hover {
+	background-color:#ffffff;
+}
+.funky-button:active {
+	position:relative;
+	top:1px;
+}
+
+h1, h2, h4, h5 {
+  /*text-shadow: 2px 2px #fff;*/
+  font-family: "Courier New", Courier, monospace;
+}
